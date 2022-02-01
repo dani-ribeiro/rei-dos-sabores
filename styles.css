@@ -1,0 +1,237 @@
+* {
+    /*border: 1px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Edit: - Changed original font color: #E5E7EB to #ACADB0.
+        A darker shade for a better contrast between colors.
+
+
+
+/*Note: Don't use percentages when defining a width or height.
+        That messes with the flex.
+        ... Restart the entire project using px.
+*/
+
+/* 48 px */
+h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #F9FAF8;
+}
+
+/* 36 px */
+h2 {
+        font-size: 36px;
+        color: #1F2937;
+}
+
+h3 {
+        font-size: 24px;
+        color: #F9FAF8;
+}
+
+h4 {
+        font-size: 22px;
+        font-weight: 900;
+}
+
+/* 18 px */
+p, a, ul, li {
+        font-size: 18px;
+        color: #ACADB0;
+        text-decoration: none;
+        list-style-type: none;
+}
+
+.header {
+        display: flex;
+        justify-content: none;
+        background-color: #1F2937;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px;
+}
+
+.header-left {
+        flex-shrink: 0;
+        justify-content: flex-start;
+        margin-left: 150px;
+        margin-right: 200px;
+}
+
+.header-right {
+        flex-shrink: 0;
+        justify-content: flex-end;
+        margin-right: 150px;
+}
+
+ul {
+        display: flex;
+        gap: 20px;
+}
+
+.dark-main {
+        background-color: #1F2937;
+        height: 515px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.dark-main-LEFT {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        margin-right: 50px;
+}
+
+button {
+        border-radius: 6px;
+        width: 125px;
+        padding: 8px;
+        background-color: #3882F6;
+        color: #F9FAF8;
+        margin-top: 10px;
+        border: 2px solid #F9FAF8;
+        font-weight: bold;
+        font-size: 18px;
+}
+
+.dark-main-LEFT button {
+        border: none;
+}
+
+
+.dark-main-RIGHT img {
+        width: 550px;
+        height: 250px;
+}
+
+.whiteTOP-main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 408px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 60px;
+}
+
+.whiteTOP-main-content-container {
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.whiteTOP-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+}
+
+.whiteTOP-main-content p,
+.whiteTOP-main-content img {
+        width: 100%;
+}
+
+.whiteTOP-main-content img {
+        border: 5px solid #3882F6;
+        border-radius: 12px;
+}
+
+.h2-text {
+        padding-top: 60px;
+        text-align: center;
+        font-weight: 900;
+}
+
+.light-main {
+        background-color: #E5E7EB;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.quote-content {
+        width: 790px;
+}
+
+.author {
+        text-align: right;
+        padding-right: 40px;
+}
+
+.light-main h2 {
+        font-style: italic;
+        font-weight: 300;
+}
+
+.whiteBOT-main {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.blue-container {
+        background-color: #3882F6;
+        border-radius: 6px;
+        display: flex;
+        width: 1000px;
+        height: 140px;
+        padding-left: 100px;
+}
+
+.blue-container-LEFT {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        justify-content: center;
+}
+
+.blue-container-LEFT h4 {
+        color: #F9FAF8;
+}
+
+.blue-container-LEFT p {
+        color: #D3D3D3;
+}
+
+.blue-container-RIGHT {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+}
+
+.footer {
+        background-color: #1F2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px;
+        height: 50px;
+}
+
+.footer p {
+        font-size: 12px;
+}
