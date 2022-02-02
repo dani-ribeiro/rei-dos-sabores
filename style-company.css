@@ -47,10 +47,14 @@ p, a, ul, li {
         list-style-type: none;
 }
 
+p {
+        font-style: italic;
+}
+
 .header {
         display: flex;
         justify-content: none;
-        background-color: #1F2937;
+        background-color: #121212;
         justify-content: space-between;
         align-items: center;
         width: 100%;
@@ -76,12 +80,13 @@ ul {
 }
 
 .dark-main {
-        background-color: #1F2937;
+        background-color: #121212;
         height: 515px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        
 }
 
 .dark-main-LEFT {
@@ -97,10 +102,10 @@ button {
         border-radius: 6px;
         width: 125px;
         padding: 8px;
-        background-color: #3882F6;
-        color: #F9FAF8;
+        background-color: #BEA6A1;
+        color: #56423E;
         margin-top: 10px;
-        border: 2px solid #F9FAF8;
+        border: 3px solid #56423E;
         font-weight: bold;
         font-size: 18px;
 }
@@ -111,8 +116,8 @@ button {
 
 
 .dark-main-RIGHT img {
-        width: 500px;
-        height: 250px;
+        width: 550px;
+        height: auto;
         border-radius: 10px;
 }
 
@@ -126,6 +131,7 @@ button {
         justify-content: center;
         padding-top: 0px;
         padding-bottom: 60px;
+        background: url("https://freerangestock.com/sample/140297/dark-slate-texture--black-slate--natural-black-stone-backgrou.jpg") no-repeat 100% /cover;
 }
 
 .whiteTOP-main-content-container {
@@ -161,10 +167,15 @@ button {
         padding-top: 60px;
         text-align: center;
         font-weight: 900;
+        background: url("https://freerangestock.com/sample/140297/dark-slate-texture--black-slate--natural-black-stone-backgrou.jpg") no-repeat 100% /cover;
+}
+
+.h2-text h2 {
+        color: #F9FAF8;
 }
 
 .light-main {
-        background-color: #E5E7EB;
+        background-color: #c96655;
         height: 400px;
         width: 100%;
         display: flex;
@@ -193,10 +204,11 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #56423E;
 }
 
 .blue-container {
-        background-color: #3882F6;
+        background-color: #BEA6A1;
         border-radius: 6px;
         display: flex;
         width: 1000px;
@@ -212,11 +224,11 @@ button {
 }
 
 .blue-container-LEFT h4 {
-        color: #F9FAF8;
+        color: #121212;
 }
 
 .blue-container-LEFT p {
-        color: #D3D3D3;
+        color: #1F2937;
 }
 
 .blue-container-RIGHT {
@@ -228,7 +240,7 @@ button {
 }
 
 .footer {
-        background-color: #1F2937;
+        background-color: #121212;
         display: flex;
         justify-content: center;
         align-items: center;
