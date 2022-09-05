@@ -1,13 +1,14 @@
-# odin-landing-page
+# Rei dos Sabores
 
-Landing page for any company or website. Landing page for Rei dos Sabores.
-File index.html and styles.css are for the default template I created from scratch.
-File company.html and style-company.css are for the restaurant I made up using the default template.
+Imitation landing page for Rei dos Sabores, an imaginary Brazilian restaurant.
+
+Notes:
+  * Files index.html and styles.css are the empty templates I used to design my final product.
+  * Files company.html and style-company.css are the final products designed using the empty templates.
 
 
 Picture Credits
-
-Filet Mignon: Image by Jakub Gojda Photography.
-Brazilian Sausage: Image by Paulo Vilela
-Picanha: Image by MoreMomma
+  * Filet Mignon: Image by Jakub Gojda Photography.
+  * Brazilian Sausage: Image by Paulo Vilela
+  * Picanha: Image by MoreMomma
 
