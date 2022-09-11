@@ -3,8 +3,8 @@
 Imitation landing page for Rei dos Sabores, an imaginary Brazilian restaurant.
 
 Notes:
-  * Files index.html and styles.css are the empty templates I used to design my final product.
-  * Files company.html and style-company.css are the final products designed using the empty templates.
+  * Files templateIndex.html and templateStyles.css are the empty templates I used to design my final product.
+  * Files index.html and style.css are the final products designed using the empty templates.
 
 
 Picture Credits
