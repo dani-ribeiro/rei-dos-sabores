@@ -1,5 +1,7 @@
 # Rei dos Sabores
 
+https://dani-ribeiro.github.io/rei-dos-sabores/
+
 Imitation landing page for Rei dos Sabores, an imaginary Brazilian restaurant.
 
 Notes:
